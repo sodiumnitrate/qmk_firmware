@@ -13,9 +13,8 @@
         "nkro": true
     },
     "matrix_pins": {
-        "reverse_cols": ["D4", "D3", "D2", "D1", "D0", "D10", "MOSI", "MISO", "SCK", "A0", "A1", "A2"],
-        "cols": ["A2", "A1", "A0", "SCK", "MISO", "MOSI", "D10", "D0", "D1", "D2", "D3", "D4"],
-        "rows": ["D5", "D6", "D7", "D8", "D9"]
+        "cols": ["GP29", "GP28", "GP26", "GP18", "GP20", "GP19", "GP10", "GP0", "GP1", "GP2", "GP3", "GP4"],
+        "rows": ["GP5", "GP6", "GP7", "GP8", "GP9"]
     },
     "url": "",
     "usb": {
@@ -23,8 +22,9 @@
         "pid": "0x0000",
         "vid": "0xFEED"
     },
+    "bootloader": "rp2040",
     "layouts": {
-        "LAYOUT_ortho_5x12": {
+        "LAYOUT": {
             "layout": [
                 {"matrix": [0, 0], "x": 0, "y": 0},
                 {"matrix": [0, 1], "x": 1, "y": 0},
