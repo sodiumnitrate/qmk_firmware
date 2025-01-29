@@ -46,6 +46,7 @@ enum custom_keycodes {
 #define KC_TCSC LCTL_T(KC_SCLN)     // left ctrl tap mod on :;
 
 #define KC_GMG TG(_GMG)             // toggle gaming mode
+#define GREEN MO(1)                 // turn on green layer  
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* Qwerty
