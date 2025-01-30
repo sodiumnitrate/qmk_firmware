@@ -35,9 +35,9 @@ enum custom_keycodes {
 #define KC_WSC LSFT(LGUI(KC_S))     // windows screenshot
 
 #define KC_TCA LCTL_T(KC_A)         // left ctrl tap mod on A
-#define KC_TAS LALT_T(KC_S)         // left alt tap mod on S         
+#define KC_TAS LALT_T(KC_S)         // left alt tap mod on S
 #define KC_LT2D LT(2,KC_D)          // layer 2 tap mod on D
-#define KC_LT3F LT(3,KC_F)          // layer 3 tap mod on F   
+#define KC_LT3F LT(3,KC_F)          // layer 3 tap mod on F
 #define KC_LT4G LT(4,KC_G)          // layer 4 tap mod on G
 #define KC_LT4H LT(4,KC_H)          // layer 4 tap mod on H
 #define KC_LT3J LT(3,KC_J)          // layer 3 tap mod on J
@@ -46,7 +46,7 @@ enum custom_keycodes {
 #define KC_TCSC LCTL_T(KC_SCLN)     // left ctrl tap mod on :;
 
 #define KC_GMG TG(_GMG)             // toggle gaming mode
-#define GREEN MO(1)                 // turn on green layer  
+#define GREEN MO(1)                 // turn on green layer
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* Qwerty
@@ -70,7 +70,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_GMG,  KC_LCTL,  KC_LALT,  KC_LGUI, GREEN,   KC_SPC,          KC_SPC,  GREEN,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
     ),
 
-    
+
 /* GREEN
 * ,------------------------------------------. ,-----------------------------------------.
  * |  F12 |   F1 |   F2 |  F3  |  F4  |  F5  | |  F6  |  F7  |  F8  |  F9  | F10  | F11  |
@@ -86,7 +86,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 [_GREEN] = LAYOUT(
     KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,             KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,
-    KC_TRNS, KC_GRV,  KC_TILD, KC_LBRC, KC_RBRC, KC_LCBR,           KC_RCBR, KC_MINS, KC_UNDS, KC_EQL,  KC_PLUS, KC_DEL,
+    KC_TRNS, KC_GRV,  KC_TILD, KC_LBRC, KC_RBRC, KC_LCBR,           KC_RCBR, KC_MINS, KC_UNDS, KC_EQL,  KC_PLUS, KC_BSPC,
     KC_TRNS, KC_1,    KC_2,    KC_3,    KC_4,    KC_5,              KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_BSLS,
     KC_TRNS, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC,           KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_PIPE,
     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,           KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
